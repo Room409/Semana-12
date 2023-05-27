@@ -1,0 +1,32 @@
+.collaps-container{
+    margin: 200px 300px;
+    outline: 1px solid rgb(59, 59, 59);
+    
+}
+
+
+.collaps-tittle{
+    background-color: rgb(221, 222, 223);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    outline: 1px solid rgb(158, 152, 152);
+    font-weight: 100;
+}
+
+.collaps-tittle ~ p{
+    padding: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collaps-tittle:hover{
+    cursor: pointer;
+}
+
+.collaps-content{
+    display: none;
+}
+
+.collaps-content.active{
+    display: block;
+}
